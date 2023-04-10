@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.callmeocean</groupId>
-	<artifactId>employee-contact-manager-backend</artifactId>
+	<artifactId>employee-contact-manager-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>employee-contact-manager-backend</name>
 	<description>Service to manage employees contact details</description>
