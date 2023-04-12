@@ -1,6 +1,6 @@
-package com.callmeocean.employeecontactmanager.services;
+package com.callmeocean.employeecontactmanagerservice.services;
 
-import com.callmeocean.employeecontactmanager.models.Employee;
+import com.callmeocean.employeecontactmanagerservice.models.Employee;
 
 import java.util.List;
 

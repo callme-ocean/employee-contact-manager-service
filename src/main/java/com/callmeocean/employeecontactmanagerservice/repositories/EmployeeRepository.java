@@ -1,6 +1,6 @@
-package com.callmeocean.employeecontactmanager.repositories;
+package com.callmeocean.employeecontactmanagerservice.repositories;
 
-import com.callmeocean.employeecontactmanager.entities.EmployeeEntity;
+import com.callmeocean.employeecontactmanagerservice.entities.EmployeeEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

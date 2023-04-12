@@ -1,7 +1,7 @@
-package com.callmeocean.employeecontactmanager.controllers;
+package com.callmeocean.employeecontactmanagerservice.controllers;
 
-import com.callmeocean.employeecontactmanager.models.Employee;
-import com.callmeocean.employeecontactmanager.services.EmployeeService;
+import com.callmeocean.employeecontactmanagerservice.models.Employee;
+import com.callmeocean.employeecontactmanagerservice.services.EmployeeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

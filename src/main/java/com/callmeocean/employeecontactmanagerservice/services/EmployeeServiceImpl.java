@@ -1,9 +1,9 @@
-package com.callmeocean.employeecontactmanager.services;
+package com.callmeocean.employeecontactmanagerservice.services;
 
-import com.callmeocean.employeecontactmanager.entities.EmployeeEntity;
-import com.callmeocean.employeecontactmanager.exceptions.UserNotFoundException;
-import com.callmeocean.employeecontactmanager.models.Employee;
-import com.callmeocean.employeecontactmanager.repositories.EmployeeRepository;
+import com.callmeocean.employeecontactmanagerservice.entities.EmployeeEntity;
+import com.callmeocean.employeecontactmanagerservice.exceptions.UserNotFoundException;
+import com.callmeocean.employeecontactmanagerservice.models.Employee;
+import com.callmeocean.employeecontactmanagerservice.repositories.EmployeeRepository;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

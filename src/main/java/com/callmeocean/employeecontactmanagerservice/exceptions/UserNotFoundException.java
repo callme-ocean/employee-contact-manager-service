@@ -1,4 +1,4 @@
-package com.callmeocean.employeecontactmanager.exceptions;
+package com.callmeocean.employeecontactmanagerservice.exceptions;
 
 public class UserNotFoundException extends RuntimeException {
     public UserNotFoundException(String message) {

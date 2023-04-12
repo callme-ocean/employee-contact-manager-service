@@ -1,4 +1,4 @@
-package com.callmeocean.employeecontactmanager.entities;
+package com.callmeocean.employeecontactmanagerservice.entities;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

@@ -11,8 +11,8 @@
 	<groupId>com.callmeocean</groupId>
 	<artifactId>employee-contact-manager-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>employee-contact-manager-backend</name>
-	<description>Service to manage employees contact details</description>
+	<name>employee-contact-manager-service</name>
+	<description>This is a service to manage employee's contact details</description>
 	<properties>
 		<java.version>11</java.version>
 	</properties>
