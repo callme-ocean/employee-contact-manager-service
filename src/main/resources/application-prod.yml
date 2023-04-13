@@ -1,0 +1,12 @@
+spring:
+  #  mysql configuration
+  datasource:
+    url: jdbc:mysql://containers-us-west-200.railway.app:7681/railway
+    username: root
+    password: LdKCqiJA09wIa9cRvGjk
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+#mysql://root:LdKCqiJA09wIa9cRvGjk@containers-us-west-200.railway.app:7681/railway
