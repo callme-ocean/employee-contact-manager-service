@@ -4,7 +4,7 @@ spring:
     url: jdbc:oracle:thin:@localhost:1522/XEPDB1
     username: sagar0802
     password: sagarAKAjersey10
-    driver-class-name: oracle.jdbc.OracleDriver
+#    driver-class-name: oracle.jdbc.OracleDriver
   jpa:
     hibernate:
       ddl-auto: update
