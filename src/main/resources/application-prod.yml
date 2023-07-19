@@ -6,7 +6,7 @@ server:
 spring:
   #  mysql configuration
   datasource:
-    url: jdbc:postgresql://dpg-cirrabh5rnujejsuk30g-a.singapore-postgres.render.com:5432/postgres_db1
+    url: jdbc:postgresql://dpg-cirrabh5rnujejsuk30g-a/postgres_db1
     username: ocean
     password: NpyAPzcnf7mOUGzVcD1g1d82OQtqPxCN
 
