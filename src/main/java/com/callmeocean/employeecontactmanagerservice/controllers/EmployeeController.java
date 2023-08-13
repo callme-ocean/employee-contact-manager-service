@@ -22,35 +22,35 @@ public class EmployeeController {
     }
 
 
-    @GetMapping("/all")
+    @GetMapping("/v1/all")
     public ResponseEntity<List<Employee>> findAllEmployees() {
         List<Employee> allEmployeesList = employeeService.findAllEmployees();
 
         return new ResponseEntity<>(allEmployeesList, HttpStatus.OK);
     }
 
-    @GetMapping("/{id}")
+    @GetMapping("/v1/{id}")
     public ResponseEntity<Employee> findEmployeeById(@PathVariable("id") Long id) {
         Employee employeeFound = employeeService.findEmployeeById(id);
 
         return new ResponseEntity<>(employeeFound, HttpStatus.OK);
     }
 
-    @PostMapping("/add")
+    @PostMapping("/v1/add")
     public ResponseEntity<Employee> addEmployee(@RequestBody Employee employee) {
         Employee addedEmployee = employeeService.addEmployee(employee);
 
         return new ResponseEntity<>(employee, HttpStatus.CREATED);
     }
 
-    @PutMapping("/update")
+    @PutMapping("/v1/update")
     public ResponseEntity<Employee> updateEmployee(@RequestBody Employee employee) {
         Employee addedEmployee = employeeService.updateEmployee(employee);
 
         return new ResponseEntity<>(employee, HttpStatus.OK);
     }
 
-    @DeleteMapping("/delete/{id}")
+    @DeleteMapping("/v1/delete/{id}")
     public ResponseEntity<?> deleteMapping(@PathVariable("id") Long id) {
         employeeService.deleteEmployee(id);
 
