@@ -6,9 +6,9 @@ server:
 spring:
   #  mysql configuration
   datasource:
-    url: jdbc:postgresql://dpg-cirrabh5rnujejsuk30g-a/postgres_db1
+    url: jdbc:postgresql://dpg-cl1oij8p2gis73fha9h0-a/postgres_db1_5phs
     username: ocean
-    password: NpyAPzcnf7mOUGzVcD1g1d82OQtqPxCN
+    password: RV4qPMuz6CB2RiK80Th22sR7vm9WCXHG
 
   jpa:
     hibernate:
