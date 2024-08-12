@@ -9,6 +9,10 @@ spring:
     url: jdbc:mysql://sagarbhadouria.com/u868060680_projects_db1
     username: u868060680_ocean
     password: RV4qPMuz6CB2RiK80Th22sR7vm9WCXHG
+    hikari: # HikariCP specific properties
+      maximum-pool-size: 10
+      minimum-idle: 2
+      idle-timeout: 60000
 
   jpa:
     hibernate:
